@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [generatedquote, setQuote] = useState("");
   const url = "https://api.api-ninjas.com/v1/quotes";
-  const apiKey = "2ur88c/ECd76mAn+dqgZHA==8Bxn75vD8KgK0RgH"; // Your API key
+  const apiKey = "your api key"; // Your API key
 
   function fetchdata() {
     fetch(url, {
